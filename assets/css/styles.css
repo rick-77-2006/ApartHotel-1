@@ -29,11 +29,20 @@ a:hover{
 	opacity: 1;
 }
 
+.btn:hover
+{
+	color: #000000;
+	background: #f5dd07;
+	transition: all .3s linear;
+	-webkit-transition: all .3s linear;
+	-moz-transition: all .3s linear; 
+}
+
 a.btn{
 	color: #000000;
 	border-radius: 30%;
 	text-transform: uppercase;
-	background-color: #FFC000;
+	background-color: #f1f0ec;
 	font-weight: 800;
 	text-align: center;
 }
@@ -229,8 +238,6 @@ header nav li:last-child{
 
 }
 
-
-
 /*--------------------
  	Our Work Section
 ---------------------*/
@@ -267,8 +274,6 @@ header nav li:last-child{
 	}
 
 }
-
-
 
 /*----------------------
  	Features Section
