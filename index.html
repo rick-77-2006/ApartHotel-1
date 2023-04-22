@@ -117,50 +117,53 @@
 	  </svg>
 	</button>
 
-	<p class="modal__title">Оставьте свои данные, мы вам перезвоним</p>
+	<p class="modal__title">Отправить сообщение</p>
+	<p>Согласно Российского Законодательства иностранные граждане, лица без гражданства или Российские граждане находящиеся не в регионе проживания, обязаны встать на миграционный учет по месту пребывания. Для наших гостей мы делаем постановку на миграционный учет бесплатно, по средствам электронного документооборота с ГУ МВД России по г. Москве. Если Вы относитесь к этим категориям гостей, пожалуйста, заполните форму ниже.
+
+		According to Russian Legislation, foreign citizens, persons without citizenship or Russian citizens who are not in the region accommodation, must be registered at the place of residence. For our guests we make a registration on the migratory account free, by means of electronic document flow with the state Ministry of internal Affairs of Moscow. If you belong to these categories of guests, please fill out the form below.
+	</p>
 	<form>
 	  <div class="modal__field">
-		<label for="name" class="modal__lable"> Имя </label>
+		<label for="name" class="modal__lable"> Контактное лицо / Name * </label>
 		<div class="modal__box">
 		  <input type="text" name="name" id="name" class="modal__input">
 		  <svg class="modal__icon">
-			<use href="./img/icons-defs.svg#icon-person-ico"></use>
+			<use href="./assets/img/icons-defs.svg#icon-person-ico"></use>
 		  </svg>
 		</div>
 	  </div>
 
 	  <div class="modal__field">
-		<label for="tel" class="modal__lable"> Телефон </label>
+		<label for="tel" class="modal__lable"> Телефон / Phone * </label>
 		<div class="modal__box">
 		  <input type="tel" name="tel" id="tel" class="modal__input" title="+380 (11) 111-11-11">
 		  <svg class="modal__icon">
-			<use href="./img/icons-defs.svg#icon-phone-ico"></use>
+			<use href="./assets/img/icons-defs.svg#icon-phone-ico"></use>
 		  </svg>
 		</div>
 	  </div>
 
 	  <div class="modal__field">
-		<label for="mail" class="modal__lable"> Почта </label>
+		<label for="mail" class="modal__lable"> Эл. почта / E-mail * </label>
 		<div class="modal__box">
 		  <input type="email" name="email" id="mail" required="" class="modal__input">
 		  <svg class="modal__icon">
-			<use href="./img/icons-defs.svg#icon-email-ico"></use>
+			<use href="./assets/img/icons-defs.svg#icon-email-ico"></use>
 		  </svg>
 		</div>
 	  </div>
 
 	  <div class="modal__field comment">
-		<label for="comment" class="modal__lable"> Комментарий </label>
+		<label for="comment" class="modal__lable"> Сообщение / Message: </label>
 		<textarea class="modal__textarea" name="comment" id="comment" placeholder="Введите текст"></textarea>
 	  </div>
 
 	  <div class="agreement">
 		<label class="agreemen__label">
 		  <span class="agreement__box">
-			<input type="checkbox" class="agreement__input"> Соглашаюсь с
-			рассылкой и принимаю&nbsp;
+			<input type="checkbox" class="agreement__input"> Нажимая на кнопку "Отправить", я даю согласие на обработку персональных данных. (By clicking on the "Submit" button, I consent to the processing of personal data)&nbsp;
 			<svg class="agreement__icon">
-			  <use href="img/icons-defs.svg#icon-check"></use>
+			  <use href="./assets/img/icons-defs.svg#icon-check"></use>
 			</svg>
 		  </span>
 
@@ -168,7 +171,7 @@
 		</label>
 	  </div>
 
-	  <button class="btn>Отправить</button>
+	  <button class="btn">Отправить</button>
 	</form>
   </div>
 
