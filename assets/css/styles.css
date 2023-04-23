@@ -536,6 +536,7 @@ footer p a{
     background-color: #ffffff;
     border-radius: 4px;
 }
+
 .btn, select {
     text-transform: none;
 }
@@ -547,54 +548,73 @@ footer p a{
     margin: 0;
 }
 
+[type=button], [type=reset], [type=submit], btn {
+    -webkit-appearance: btn;
+}
+
 
 /*==========================================*/
 
-* {box-sizing: border-box; margin: 0;}
-.widget {
-  padding: 20px;
-  border: 5px solid #f1f1f1;
-  background: #fff;
-  border-radius: 5px;
-  font-family: 'Roboto', sans-serif;
+.drop_vert_menu {
+    list-style-type: none; 
+    width: 198px;
+    margin: 0; 
+    padding: 0;
+ }
+ 
+.drop_vert_menu  ul {
+    list-style-type: none; 
+    width: 180px;
+    margin: 0; 
+    padding: 0; 
 }
-.widget h3 {
-  margin-bottom: 20px;
-  text-align: center;
-  font-size: 24px;
-  font-weight: normal;
-  color:  #424949;
+.drop_vert_menu > li{
+  position: relative; 
+  background: url(images/vert_css_menu_0.png) no-repeat 0 0; 
+  padding:10px 0px 10px 16px;
+  border-top: 1px solid rgb(7, 7, 7);
 }
-.widget ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  width: 250px;
+
+.drop_vert_menu > li:hover {
+background: url(images/vert_css_menu_1.png) no-repeat 0 0;
 }
-.widget li {
-  border-bottom: 1px solid #eaeaea;
-  padding-bottom: 15px;
-  margin-bottom: 15px;
+.drop_vert_menu > li > a{
+  font-size:18px;
+  color: rgb(8, 8, 8);
+  text-decoration:none;
 }
-.widget li:last-child {
-  border-bottom: none;
-  margin-bottom: 0;
-  padding-bottom: 0;
+
+
+  .drop_vert_menu li ul {
+    position: absolute; 
+    display: none; 
+    top: 2px; 
+    left: 195px; 
+   }
+
+ .drop_vert_menu li:hover ul {
+   display: block; 
+   }
+
+.drop_vert_menu li ul li{
+  text-align:left;
+  background: #59C113;
+  padding: 8px 0px 8px 10px;
 }
-.widget a {
-  text-decoration: none;
-  color:  #616a6b;
-  display: inline-block;
+
+.drop_vert_menu li ul li:hover {
+  background: #87DA50;
+
 }
-.widget li:before {
-  font-family: FontAwesome;
-  font-size: 20px;
-  vertical-align:bottom;
-  color: #dd3333; 
-  margin-right: 14px;
+
+.drop_vert_menu li ul li a{
+  font-size:14px;
+  color:rgb(8, 8, 8);
+  text-decoration:none;
 }
-/* .widget li:nth-child(1):before {content:"\f1fc";}
-.widget li:nth-child(2):before {content:"\f0d0";}
-.widget li:nth-child(3):before {content:"\f0cd";}
-.widget li:nth-child(4):before {content:"\f028";}
-.widget li:nth-child(5):before {content:"\f03d";} */
+
+.drop_vert_menu li ul li a:hover{
+  font-size: 14px;
+  color: rgb(10, 10, 10);
+  text-decoration:none;
+}
