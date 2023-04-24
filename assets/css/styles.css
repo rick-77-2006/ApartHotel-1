@@ -170,7 +170,7 @@ header nav li:last-child{
 
 @media (max-width: 700px){
 	header{
-		flex-direction: column;		
+		/* flex-direction: column;		 */
 	}
 
 	header h2{
@@ -266,7 +266,7 @@ top: 112px;
 
 .our-work .grid li{
 	padding: 20px;
-	height: 350px;
+	height: 277px;
 	border-radius: 3px;
 
 	background-clip: content-box;
