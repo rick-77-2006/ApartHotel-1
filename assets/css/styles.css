@@ -222,7 +222,7 @@ height: 312px;
 left: 33px;
 top: 112px;
 
-background: url(prm3.jpg);
+/* background: url(prm3.jpg); */
 }
 
 @media (max-width: 800px){
@@ -611,4 +611,26 @@ background: url(images/vert_css_menu_1.png) no-repeat 0 0;
   font-size: 14px;
   color: rgb(10, 10, 10);
   text-decoration:none;
+}
+
+
+/* АПАРТ ОТЕЛЬ */
+@media screen and (max-width: 767px) {
+.logo--absolute {
+    position: absolute;
+    left: 15px;
+    top: 470px;
+}
+}
+
+.logo {
+    font-family: "Century Gothic";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 68.66px;
+	text-align: Center;
+    letter-spacing: 0.03em;
+    display: block;
+    color: #faea06;
 }
