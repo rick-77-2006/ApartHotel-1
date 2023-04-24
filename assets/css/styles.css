@@ -167,8 +167,6 @@ header nav li:last-child{
 	}
 }
 
-
-
 /*----------------
  	Hero Section
 ----------------*/
@@ -215,6 +213,16 @@ header nav li:last-child{
 
 .hero a.btn{
 	padding: 20px 46px;
+}
+
+.stairs {
+	position: absolute;
+width: 395px;
+height: 312px;
+left: 33px;
+top: 112px;
+
+background: url(prm3.jpg);
 }
 
 @media (max-width: 800px){
@@ -475,12 +483,12 @@ footer p a{
     border-radius: 4px;
 }
 
-.bun {
+.btn {
     color: #fff;
     background: #2196f3;
     -webkit-box-shadow: 0px 4px 4px rgba(0,0,0,0.15);
     box-shadow: 0px 4px 4px rgba(0,0,0,0.15);
-    border-radius: 4px;
+    border-radius: 0px;
     border: none;
     cursor: pointer;
     font-weight: 700;
