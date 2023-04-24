@@ -111,7 +111,6 @@ ul.grid{
 	justify-content: center;
 }
 
-
 /*-------------
  	Header
 -------------*/
@@ -327,8 +326,6 @@ header nav li:last-child{
 
 }
 
-
-
 /*--------------------
  	Reviews Section
 --------------------*/
@@ -367,8 +364,6 @@ header nav li:last-child{
 	}
 
 }
-
-
 
 /*---------------------
  	Contact Section
@@ -409,9 +404,6 @@ header nav li:last-child{
 	}
 
 }
-
-
-
 
 /*-------------
  	Footer
@@ -457,14 +449,10 @@ footer p a{
 }
 
 @media (max-width: 700px){
-
 	footer{
 		padding: 80px 15px;
 	}
-
 }
-
-/* -- Demo ads -- */
 
 @media (max-width: 1200px) {
 	#bsaHolder{ display:none;}
@@ -548,10 +536,9 @@ footer p a{
     margin: 0;
 }
 
-[type=button], [type=reset], [type=submit], btn {
+/* [type=button], [type=reset], [type=submit], btn {
     -webkit-appearance: btn;
-}
-
+} */
 
 /*==========================================*/
 
@@ -584,8 +571,7 @@ background: url(images/vert_css_menu_1.png) no-repeat 0 0;
   text-decoration:none;
 }
 
-
-  .drop_vert_menu li ul {
+.drop_vert_menu li ul {
     position: absolute; 
     display: none; 
     top: 2px; 
