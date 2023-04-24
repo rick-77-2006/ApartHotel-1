@@ -252,7 +252,7 @@ header nav li:last-child{
 	border-radius: 3px;
 
 	background-clip: content-box;
-	background-size: cover;
+	/* background-size: cover; */
 	background-position: right;
 	background-color: #333;
 }
